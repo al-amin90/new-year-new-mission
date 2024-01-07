@@ -30,6 +30,24 @@ main section {
   line-height: 2.4rem;
 }
 
+.secondery-title {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 4rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 1rem 0 1rem;
+}
+
+.secondary-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-bottom: 3.4rem;
+  max-width: 70rem;
+}
+
 /* banner style is here  */
 .banner {
   margin-top: 5rem;
@@ -172,28 +190,44 @@ main section {
   color: #f00;
 }
 
-.portfolio-heading h5 {
+/* new-best-offer style is here  */
+.new-best-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5.7rem;
+}
+
+.new-best-offer-first-part p {
+  max-width: 36rem;
+}
+
+.new-best-img {
+  border: 1rem solid red;
+  border-radius: 50%;
+  width: 33.33%;
+}
+
+.new-best-img img {
+  width: 100%;
+  border: 2.5rem solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.new-best-offer-third-part h3 {
+  font-family: "Inter", sans-serif;
+}
+
+.new-best-offer-third-part p {
+  max-width: 24rem;
+}
+
+/* awesome portfolio style is here  */
+.portfolio-heading h5,
+.new-best-offer-first-part h5 {
   color: #f00;
   font-size: 1.9rem;
   font-weight: 500;
-}
-
-.secondery-title {
-  color: #070211;
-  font-family: "Merriweather", serif;
-  font-size: 4rem;
-  font-weight: 900;
-  text-transform: capitalize;
-  margin: 1rem 0 1rem;
-}
-
-.secondary-para {
-  color: rgba(7, 2, 17, 0.6);
-  font-size: 1.4rem;
-  font-weight: 400;
-  line-height: 2.4rem;
-  margin-bottom: 3.4rem;
-  max-width: 70rem;
 }
 
 .img-row {

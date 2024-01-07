@@ -9,6 +9,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 /* common style is here  */
@@ -167,7 +168,7 @@ main section {
   cursor: pointer;
 }
 
-.red-colour {
+.primary-color {
   color: #f00;
 }
 
@@ -204,6 +205,12 @@ main section {
 
 .portfolio-img img {
   width: 35.6rem;
+  transition: all 0.2s linear;
+}
+
+.portfolio-img img:hover {
+  scale: 1.1.8;
+  z-index: 100;
 }
 
 /* subscribe latter style is here  */
@@ -240,4 +247,49 @@ form button {
   font-size: 1.6rem;
   font-weight: 600;
   text-transform: capitalize;
+}
+
+/* footer style is here  */
+footer {
+  height: 56.5rem;
+  background-color: #070211;
+  padding: 10rem 0;
+}
+
+footer hr {
+  margin: 4rem 0;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 3rem;
+  max-width: 30rem;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: center;
+  gap: 1.9rem;
+}
+
+.contact-icon img {
+  cursor: pointer;
+}
+
+.footer-rights-info {
+  display: flex;
+  justify-content: space-between;
 }

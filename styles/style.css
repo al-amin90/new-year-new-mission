@@ -150,7 +150,7 @@ main section {
 }
 
 .party-img img {
-  background-blend-mode: multiply;
+  /* mix-blend-mode: darken; */
 }
 
 /* party-info style is here  */
@@ -266,6 +266,7 @@ main section {
   left: 7%;
   z-index: 1;
   width: 50rem;
+  /* mix-blend-mode: darken; */
 }
 
 .buying-girl img:nth-child(2) {
@@ -293,6 +294,7 @@ main section {
 .img-row {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1.9rem;
 }
